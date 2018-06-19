@@ -1524,3 +1524,564 @@
 2018-06-18 17:17:31 INFO  ApacheHttpClient.getTask(421) - responseCode = 200
 2018-06-18 17:17:31 INFO  ApacheHttpClient.getTask(421) - responseCode = 200
 2018-06-18 17:17:31 INFO  ApacheHttpClient.getTask(421) - responseCode = 200
+2018-06-19 04:28:54 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+2018-06-19 04:28:54 INFO  JavaRushTasksProjectComponent.projectOpened(69) - ---------- Version 3.18 ----------
+
+2018-06-19 04:28:54 INFO  ApacheHttpClient.createAsyncHttpClient(129) - Выбрано 1 прокси. Тип : DIRECT
+2018-06-19 04:28:55 INFO  ApacheHttpClient.<init>(87) - ApacheHttpClient проинстанциирован успешно.
+2018-06-19 04:28:55 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-19 04:28:55 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-19 04:28:55 INFO  ApacheHttpClient.login(225) - Ожидание ответа сервера.
+2018-06-19 04:28:55 INFO  ApacheHttpClient.login(229) - responseCode = 200
+2018-06-19 04:28:55 INFO  ApacheHttpClient.login(260) - JSESSIONID=07C9879DD35ECCC05DA2B47AEEB804A6
+2018-06-19 04:28:56 INFO  ApacheHttpClient.refreshUserInfo(288) - responseCode = 200
+2018-06-19 04:28:56 INFO  ApacheHttpClient.refreshUserInfo(294) - Информация о пользователе получена.
+2018-06-19 04:28:56 INFO  ApacheHttpClient.startGA(31) - GAService запущен.
+2018-06-19 04:28:56 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-06-19 04:29:06 INFO  ApacheHttpClient.getWebResourceAsStream(436) - responseCode = 200
+2018-06-19 04:29:07 INFO  ApacheHttpClient.getFilteredTasks(323) - responseCode = 200
+2018-06-19 04:29:18 INFO  ApacheHttpClient.getFilteredTasks(323) - responseCode = 200
+2018-06-19 04:29:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:30:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:31:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:32:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:33:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:34:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:35:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:36:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:37:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:38:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:39:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:40:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:41:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:42:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:43:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:44:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:45:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:46:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:47:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:48:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:49:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:50:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:51:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:52:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:53:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:54:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:55:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:56:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:57:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.error(118) - Already disposed: Module: 'JavaProject'
+java.lang.AssertionError: Already disposed: Module: 'JavaProject'
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.lambda$throwAlreadyDisposed$1(ComponentManagerImpl.java:247)
+	at com.intellij.openapi.application.ReadAction.lambda$run$1(ReadAction.java:43)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:927)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:43)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.throwAlreadyDisposed(ComponentManagerImpl.java:245)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:238)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:44)
+	at com.intellij.openapi.module.ModuleServiceManager.getService(ModuleServiceManager.java:49)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionManager(ModuleImpl.java:224)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionValue(ModuleImpl.java:229)
+	at com.intellij.openapi.module.Module.getModuleTypeName(Module.java:170)
+	at com.intellij.openapi.module.ModuleType.get(ModuleType.java:109)
+	at com.intellij.psi.impl.JavaDirectoryIconProvider.getIcon(JavaDirectoryIconProvider.java:60)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.setupIcon(PsiDirectoryNode.java:173)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.updateImpl(PsiDirectoryNode.java:120)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.lambda$update$0(AbstractPsiBasedNode.java:152)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:897)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.update(AbstractPsiBasedNode.java:127)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.getUpdatedPresentation(PresentableNodeDescriptor.java:88)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.update(PresentableNodeDescriptor.java:41)
+	at com.intellij.ui.tree.StructureTreeModel$Node.update(StructureTreeModel.java:280)
+	at com.intellij.ui.tree.StructureTreeModel$Node.access$900(StructureTreeModel.java:256)
+	at com.intellij.ui.tree.StructureTreeModel.lambda$getChildren$5(StructureTreeModel.java:157)
+	at java.util.ArrayList.forEach(ArrayList.java:1251)
+	at com.intellij.ui.tree.StructureTreeModel.getChildren(StructureTreeModel.java:157)
+	at com.intellij.ui.tree.AsyncTreeModel$CmdGetChildren.getNode(AsyncTreeModel.java:549)
+	at com.intellij.ui.tree.AsyncTreeModel$ObsolescentCommand.get(AsyncTreeModel.java:444)
+	at com.intellij.ui.tree.AsyncTreeModel$ObsolescentCommand.get(AsyncTreeModel.java:410)
+	at com.intellij.util.concurrency.Command$Processor.lambda$process$1(Command.java:48)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1134)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$2(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:138)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:105)
+	at com.intellij.util.concurrency.Invoker.invokeSafely(Invoker.java:114)
+	at com.intellij.util.concurrency.Invoker.lambda$invokeLater$0(Invoker.java:76)
+	at com.intellij.util.concurrency.Invoker$BackgroundThread.lambda$offer$0(Invoker.java:248)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:212)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(126) - IntelliJ IDEA 2018.1.5  Build #IU-181.5281.24
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(133) - JDK: 1.8.0_152-release
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(134) - VM: OpenJDK 64-Bit Server VM
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(135) - Vendor: JetBrains s.r.o
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(136) - OS: Windows 10
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(142) - Last Action: CheckinProject
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.error(118) - Already disposed: Module: 'JavaProject'
+java.lang.AssertionError: Already disposed: Module: 'JavaProject'
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.lambda$throwAlreadyDisposed$1(ComponentManagerImpl.java:247)
+	at com.intellij.openapi.application.ReadAction.lambda$run$1(ReadAction.java:43)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:927)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:43)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.throwAlreadyDisposed(ComponentManagerImpl.java:245)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:238)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getComponent(ComponentManagerImpl.java:148)
+	at com.intellij.openapi.roots.ModuleRootManager.getInstance(ModuleRootManager.java:34)
+	at com.intellij.ide.projectView.impl.nodes.ProjectViewDirectoryHelper.getTopLevelModuleRoots(ProjectViewDirectoryHelper.java:267)
+	at com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode.createModuleGroup(ProjectViewProjectNode.java:77)
+	at com.intellij.ide.projectView.impl.nodes.AbstractProjectNode.createModuleNode(AbstractProjectNode.java:117)
+	at com.intellij.ide.projectView.impl.nodes.AbstractProjectNode.modulesAndGroups(AbstractProjectNode.java:97)
+	at com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode.getChildren(ProjectViewProjectNode.java:55)
+	at com.intellij.ide.util.treeView.AbstractTreeStructureBase.getChildElements(AbstractTreeStructureBase.java:33)
+	at com.intellij.ui.tree.StructureTreeModel.getValidChildren(StructureTreeModel.java:229)
+	at com.intellij.ui.tree.StructureTreeModel.getNode(StructureTreeModel.java:139)
+	at com.intellij.ui.tree.StructureTreeModel.isLeaf(StructureTreeModel.java:175)
+	at com.intellij.ui.tree.AsyncTreeModel$CmdGetRoot.getNode(AsyncTreeModel.java:475)
+	at com.intellij.ui.tree.AsyncTreeModel$ObsolescentCommand.get(AsyncTreeModel.java:444)
+	at com.intellij.ui.tree.AsyncTreeModel$ObsolescentCommand.get(AsyncTreeModel.java:410)
+	at com.intellij.util.concurrency.Command$Processor.lambda$process$1(Command.java:48)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1129)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$2(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:138)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:105)
+	at com.intellij.util.concurrency.Invoker.invokeSafely(Invoker.java:114)
+	at com.intellij.util.concurrency.Invoker.invokeLaterIfNeeded(Invoker.java:89)
+	at com.intellij.util.concurrency.Command$Processor.process(Command.java:48)
+	at com.intellij.ui.tree.AsyncTreeModel$1.process(AsyncTreeModel.java:75)
+	at com.intellij.util.ui.tree.TreeModelAdapter.treeStructureChanged(TreeModelAdapter.java:59)
+	at com.intellij.util.ui.tree.TreeModelListenerList.treeStructureChanged(TreeModelListenerList.java:104)
+	at com.intellij.util.ui.tree.AbstractTreeModel.treeStructureChanged(AbstractTreeModel.java:47)
+	at com.intellij.ui.tree.StructureTreeModel.lambda$invalidate$2(StructureTreeModel.java:103)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1134)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$2(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:138)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:105)
+	at com.intellij.util.concurrency.Invoker.invokeSafely(Invoker.java:114)
+	at com.intellij.util.concurrency.Invoker.lambda$invokeLater$0(Invoker.java:76)
+	at com.intellij.util.concurrency.Invoker$BackgroundThread.lambda$offer$0(Invoker.java:248)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:212)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(126) - IntelliJ IDEA 2018.1.5  Build #IU-181.5281.24
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(133) - JDK: 1.8.0_152-release
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(134) - VM: OpenJDK 64-Bit Server VM
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(135) - Vendor: JetBrains s.r.o
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(136) - OS: Windows 10
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(142) - Last Action: CheckinProject
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.error(118) - Already disposed: Module: 'JavaProject'
+java.lang.AssertionError: Already disposed: Module: 'JavaProject'
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.lambda$throwAlreadyDisposed$1(ComponentManagerImpl.java:247)
+	at com.intellij.openapi.application.ReadAction.lambda$run$1(ReadAction.java:43)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:927)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:43)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.throwAlreadyDisposed(ComponentManagerImpl.java:245)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:238)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:44)
+	at com.intellij.openapi.module.ModuleServiceManager.getService(ModuleServiceManager.java:49)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionManager(ModuleImpl.java:224)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionValue(ModuleImpl.java:229)
+	at com.intellij.openapi.module.Module.getModuleTypeName(Module.java:170)
+	at com.intellij.openapi.module.ModuleType.get(ModuleType.java:109)
+	at com.intellij.psi.impl.JavaDirectoryIconProvider.getIcon(JavaDirectoryIconProvider.java:60)
+	at com.intellij.util.PsiIconUtil.getProvidersIcon(PsiIconUtil.java:42)
+	at com.intellij.psi.impl.ElementBase.computeIconNow(ElementBase.java:101)
+	at com.intellij.psi.impl.ElementBase.lambda$static$0(ElementBase.java:45)
+	at com.intellij.ui.DeferredIconImpl.evaluate(DeferredIconImpl.java:278)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$0(DeferredIconImpl.java:163)
+	at com.intellij.ui.IconDeferrerImpl.evaluateDeferred(IconDeferrerImpl.java:122)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$1(DeferredIconImpl.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1134)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$2(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:138)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:105)
+	at com.intellij.ui.DeferredIconImpl.lambda$paintIcon$4(DeferredIconImpl.java:162)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:212)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(126) - IntelliJ IDEA 2018.1.5  Build #IU-181.5281.24
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(133) - JDK: 1.8.0_152-release
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(134) - VM: OpenJDK 64-Bit Server VM
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(135) - Vendor: JetBrains s.r.o
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(136) - OS: Windows 10
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(142) - Last Action: CheckinProject
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.error(118) - Already disposed: Module: 'JavaProject'
+java.lang.AssertionError: Already disposed: Module: 'JavaProject'
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.lambda$throwAlreadyDisposed$1(ComponentManagerImpl.java:247)
+	at com.intellij.openapi.application.ReadAction.lambda$run$1(ReadAction.java:43)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:927)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:43)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.throwAlreadyDisposed(ComponentManagerImpl.java:245)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:238)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:44)
+	at com.intellij.openapi.module.ModuleServiceManager.getService(ModuleServiceManager.java:49)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionManager(ModuleImpl.java:224)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionValue(ModuleImpl.java:229)
+	at com.intellij.openapi.module.Module.getModuleTypeName(Module.java:170)
+	at com.intellij.openapi.module.ModuleType.get(ModuleType.java:109)
+	at com.intellij.psi.impl.JavaDirectoryIconProvider.getIcon(JavaDirectoryIconProvider.java:60)
+	at com.intellij.util.PsiIconUtil.getProvidersIcon(PsiIconUtil.java:42)
+	at com.intellij.psi.impl.ElementBase.computeIconNow(ElementBase.java:101)
+	at com.intellij.psi.impl.ElementBase.lambda$static$0(ElementBase.java:45)
+	at com.intellij.ui.DeferredIconImpl.evaluate(DeferredIconImpl.java:278)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$0(DeferredIconImpl.java:163)
+	at com.intellij.ui.IconDeferrerImpl.evaluateDeferred(IconDeferrerImpl.java:122)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$1(DeferredIconImpl.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1134)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$2(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:138)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:105)
+	at com.intellij.ui.DeferredIconImpl.lambda$paintIcon$4(DeferredIconImpl.java:162)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:212)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(126) - IntelliJ IDEA 2018.1.5  Build #IU-181.5281.24
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(133) - JDK: 1.8.0_152-release
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(134) - VM: OpenJDK 64-Bit Server VM
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(135) - Vendor: JetBrains s.r.o
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(136) - OS: Windows 10
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(142) - Last Action: CheckinProject
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.error(118) - Already disposed: Module: 'JavaProject'
+java.lang.AssertionError: Already disposed: Module: 'JavaProject'
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.lambda$throwAlreadyDisposed$1(ComponentManagerImpl.java:247)
+	at com.intellij.openapi.application.ReadAction.lambda$run$1(ReadAction.java:43)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:927)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:43)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.throwAlreadyDisposed(ComponentManagerImpl.java:245)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:238)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:44)
+	at com.intellij.openapi.module.ModuleServiceManager.getService(ModuleServiceManager.java:49)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionManager(ModuleImpl.java:224)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionValue(ModuleImpl.java:229)
+	at com.intellij.openapi.module.Module.getModuleTypeName(Module.java:170)
+	at com.intellij.openapi.module.ModuleType.get(ModuleType.java:109)
+	at com.intellij.psi.impl.JavaDirectoryIconProvider.getIcon(JavaDirectoryIconProvider.java:60)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.setupIcon(PsiDirectoryNode.java:173)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.updateImpl(PsiDirectoryNode.java:120)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.lambda$update$0(AbstractPsiBasedNode.java:152)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:897)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.update(AbstractPsiBasedNode.java:127)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.getUpdatedPresentation(PresentableNodeDescriptor.java:88)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.update(PresentableNodeDescriptor.java:41)
+	at com.intellij.ui.tree.StructureTreeModel$Node.update(StructureTreeModel.java:280)
+	at com.intellij.ui.tree.StructureTreeModel$Node.access$900(StructureTreeModel.java:256)
+	at com.intellij.ui.tree.StructureTreeModel.lambda$invalidate$2(StructureTreeModel.java:100)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1134)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$2(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:138)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:105)
+	at com.intellij.util.concurrency.Invoker.invokeSafely(Invoker.java:114)
+	at com.intellij.util.concurrency.Invoker.lambda$invokeLater$0(Invoker.java:76)
+	at com.intellij.util.concurrency.Invoker$BackgroundThread.lambda$offer$0(Invoker.java:248)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:212)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(126) - IntelliJ IDEA 2018.1.5  Build #IU-181.5281.24
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(133) - JDK: 1.8.0_152-release
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(134) - VM: OpenJDK 64-Bit Server VM
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(135) - Vendor: JetBrains s.r.o
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(136) - OS: Windows 10
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(142) - Last Action: CheckinProject
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.error(118) - Already disposed: Module: 'JavaProject'
+java.lang.AssertionError: Already disposed: Module: 'JavaProject'
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.lambda$throwAlreadyDisposed$1(ComponentManagerImpl.java:247)
+	at com.intellij.openapi.application.ReadAction.lambda$run$1(ReadAction.java:43)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:927)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:43)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.throwAlreadyDisposed(ComponentManagerImpl.java:245)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:238)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:44)
+	at com.intellij.openapi.module.ModuleServiceManager.getService(ModuleServiceManager.java:49)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionManager(ModuleImpl.java:224)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionValue(ModuleImpl.java:229)
+	at com.intellij.openapi.module.Module.getModuleTypeName(Module.java:170)
+	at com.intellij.openapi.module.ModuleType.get(ModuleType.java:109)
+	at com.intellij.psi.impl.JavaDirectoryIconProvider.getIcon(JavaDirectoryIconProvider.java:60)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.setupIcon(PsiDirectoryNode.java:173)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.updateImpl(PsiDirectoryNode.java:120)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.lambda$update$0(AbstractPsiBasedNode.java:152)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:897)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.update(AbstractPsiBasedNode.java:127)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.getUpdatedPresentation(PresentableNodeDescriptor.java:88)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.update(PresentableNodeDescriptor.java:41)
+	at com.intellij.ui.tree.StructureTreeModel$Node.update(StructureTreeModel.java:280)
+	at com.intellij.ui.tree.StructureTreeModel$Node.access$900(StructureTreeModel.java:256)
+	at com.intellij.ui.tree.StructureTreeModel.lambda$invalidate$2(StructureTreeModel.java:100)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1134)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$2(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:138)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:105)
+	at com.intellij.util.concurrency.Invoker.invokeSafely(Invoker.java:114)
+	at com.intellij.util.concurrency.Invoker.lambda$invokeLater$0(Invoker.java:76)
+	at com.intellij.util.concurrency.Invoker$BackgroundThread.lambda$offer$0(Invoker.java:248)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:212)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(126) - IntelliJ IDEA 2018.1.5  Build #IU-181.5281.24
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(133) - JDK: 1.8.0_152-release
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(134) - VM: OpenJDK 64-Bit Server VM
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(135) - Vendor: JetBrains s.r.o
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(136) - OS: Windows 10
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(142) - Last Action: CheckinProject
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.error(118) - Already disposed: Module: 'JavaProject'
+java.lang.AssertionError: Already disposed: Module: 'JavaProject'
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.lambda$throwAlreadyDisposed$1(ComponentManagerImpl.java:247)
+	at com.intellij.openapi.application.ReadAction.lambda$run$1(ReadAction.java:43)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:927)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:43)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.throwAlreadyDisposed(ComponentManagerImpl.java:245)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:238)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:44)
+	at com.intellij.openapi.module.ModuleServiceManager.getService(ModuleServiceManager.java:49)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionManager(ModuleImpl.java:224)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionValue(ModuleImpl.java:229)
+	at com.intellij.openapi.module.Module.getModuleTypeName(Module.java:170)
+	at com.intellij.openapi.module.ModuleType.get(ModuleType.java:109)
+	at com.intellij.psi.impl.JavaDirectoryIconProvider.getIcon(JavaDirectoryIconProvider.java:60)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.setupIcon(PsiDirectoryNode.java:173)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.updateImpl(PsiDirectoryNode.java:120)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.lambda$update$0(AbstractPsiBasedNode.java:152)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:897)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.update(AbstractPsiBasedNode.java:127)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.getUpdatedPresentation(PresentableNodeDescriptor.java:88)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.update(PresentableNodeDescriptor.java:41)
+	at com.intellij.ui.tree.StructureTreeModel$Node.update(StructureTreeModel.java:280)
+	at com.intellij.ui.tree.StructureTreeModel$Node.access$900(StructureTreeModel.java:256)
+	at com.intellij.ui.tree.StructureTreeModel.lambda$invalidate$2(StructureTreeModel.java:100)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1134)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$2(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:138)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:105)
+	at com.intellij.util.concurrency.Invoker.invokeSafely(Invoker.java:114)
+	at com.intellij.util.concurrency.Invoker.lambda$invokeLater$0(Invoker.java:76)
+	at com.intellij.util.concurrency.Invoker$BackgroundThread.lambda$offer$0(Invoker.java:248)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:212)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(126) - IntelliJ IDEA 2018.1.5  Build #IU-181.5281.24
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(133) - JDK: 1.8.0_152-release
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(134) - VM: OpenJDK 64-Bit Server VM
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(135) - Vendor: JetBrains s.r.o
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(136) - OS: Windows 10
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(142) - Last Action: CheckinProject
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.error(118) - Already disposed: Module: 'JavaProject'
+java.lang.AssertionError: Already disposed: Module: 'JavaProject'
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.lambda$throwAlreadyDisposed$1(ComponentManagerImpl.java:247)
+	at com.intellij.openapi.application.ReadAction.lambda$run$1(ReadAction.java:43)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:927)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:43)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.throwAlreadyDisposed(ComponentManagerImpl.java:245)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:238)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:44)
+	at com.intellij.openapi.module.ModuleServiceManager.getService(ModuleServiceManager.java:49)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionManager(ModuleImpl.java:224)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionValue(ModuleImpl.java:229)
+	at com.intellij.openapi.module.Module.getModuleTypeName(Module.java:170)
+	at com.intellij.openapi.module.ModuleType.get(ModuleType.java:109)
+	at com.intellij.psi.impl.JavaDirectoryIconProvider.getIcon(JavaDirectoryIconProvider.java:60)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.setupIcon(PsiDirectoryNode.java:173)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.updateImpl(PsiDirectoryNode.java:120)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.lambda$update$0(AbstractPsiBasedNode.java:152)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:897)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.update(AbstractPsiBasedNode.java:127)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.getUpdatedPresentation(PresentableNodeDescriptor.java:88)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.update(PresentableNodeDescriptor.java:41)
+	at com.intellij.ui.tree.StructureTreeModel$Node.update(StructureTreeModel.java:280)
+	at com.intellij.ui.tree.StructureTreeModel$Node.access$900(StructureTreeModel.java:256)
+	at com.intellij.ui.tree.StructureTreeModel.lambda$invalidate$2(StructureTreeModel.java:100)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1134)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$2(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:138)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:105)
+	at com.intellij.util.concurrency.Invoker.invokeSafely(Invoker.java:114)
+	at com.intellij.util.concurrency.Invoker.lambda$invokeLater$0(Invoker.java:76)
+	at com.intellij.util.concurrency.Invoker$BackgroundThread.lambda$offer$0(Invoker.java:248)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:212)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(126) - IntelliJ IDEA 2018.1.5  Build #IU-181.5281.24
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(133) - JDK: 1.8.0_152-release
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(134) - VM: OpenJDK 64-Bit Server VM
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(135) - Vendor: JetBrains s.r.o
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(136) - OS: Windows 10
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(142) - Last Action: CheckinProject
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.error(118) - Already disposed: Module: 'JavaProject'
+java.lang.AssertionError: Already disposed: Module: 'JavaProject'
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.lambda$throwAlreadyDisposed$1(ComponentManagerImpl.java:247)
+	at com.intellij.openapi.application.ReadAction.lambda$run$1(ReadAction.java:43)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:927)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:43)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.throwAlreadyDisposed(ComponentManagerImpl.java:245)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:238)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:44)
+	at com.intellij.openapi.module.ModuleServiceManager.getService(ModuleServiceManager.java:49)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionManager(ModuleImpl.java:224)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionValue(ModuleImpl.java:229)
+	at com.intellij.openapi.module.Module.getModuleTypeName(Module.java:170)
+	at com.intellij.openapi.module.ModuleType.get(ModuleType.java:109)
+	at com.intellij.psi.impl.JavaDirectoryIconProvider.getIcon(JavaDirectoryIconProvider.java:60)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.setupIcon(PsiDirectoryNode.java:173)
+	at com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode.updateImpl(PsiDirectoryNode.java:120)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.lambda$update$0(AbstractPsiBasedNode.java:152)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:897)
+	at com.intellij.ide.projectView.impl.nodes.AbstractPsiBasedNode.update(AbstractPsiBasedNode.java:127)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.getUpdatedPresentation(PresentableNodeDescriptor.java:88)
+	at com.intellij.ide.util.treeView.PresentableNodeDescriptor.update(PresentableNodeDescriptor.java:41)
+	at com.intellij.ui.tree.StructureTreeModel$Node.update(StructureTreeModel.java:280)
+	at com.intellij.ui.tree.StructureTreeModel$Node.access$900(StructureTreeModel.java:256)
+	at com.intellij.ui.tree.StructureTreeModel.lambda$invalidate$2(StructureTreeModel.java:100)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1134)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$2(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:138)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:105)
+	at com.intellij.util.concurrency.Invoker.invokeSafely(Invoker.java:114)
+	at com.intellij.util.concurrency.Invoker.lambda$invokeLater$0(Invoker.java:76)
+	at com.intellij.util.concurrency.Invoker$BackgroundThread.lambda$offer$0(Invoker.java:248)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:212)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(126) - IntelliJ IDEA 2018.1.5  Build #IU-181.5281.24
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(133) - JDK: 1.8.0_152-release
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(134) - VM: OpenJDK 64-Bit Server VM
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(135) - Vendor: JetBrains s.r.o
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(136) - OS: Windows 10
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(142) - Last Action: CheckinProject
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.error(118) - Already disposed: Module: 'JavaProject'
+java.lang.AssertionError: Already disposed: Module: 'JavaProject'
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.lambda$throwAlreadyDisposed$1(ComponentManagerImpl.java:247)
+	at com.intellij.openapi.application.ReadAction.lambda$run$1(ReadAction.java:43)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:927)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.application.ReadAction.run(ReadAction.java:43)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.throwAlreadyDisposed(ComponentManagerImpl.java:245)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:238)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:44)
+	at com.intellij.openapi.module.ModuleServiceManager.getService(ModuleServiceManager.java:49)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionManager(ModuleImpl.java:224)
+	at com.intellij.openapi.module.impl.ModuleImpl.getOptionValue(ModuleImpl.java:229)
+	at com.intellij.openapi.module.Module.getModuleTypeName(Module.java:170)
+	at com.intellij.openapi.module.ModuleType.get(ModuleType.java:109)
+	at com.intellij.psi.impl.JavaDirectoryIconProvider.getIcon(JavaDirectoryIconProvider.java:60)
+	at com.intellij.util.PsiIconUtil.getProvidersIcon(PsiIconUtil.java:42)
+	at com.intellij.psi.impl.ElementBase.computeIconNow(ElementBase.java:101)
+	at com.intellij.psi.impl.ElementBase.lambda$static$0(ElementBase.java:45)
+	at com.intellij.ui.DeferredIconImpl.evaluate(DeferredIconImpl.java:278)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$0(DeferredIconImpl.java:163)
+	at com.intellij.ui.IconDeferrerImpl.evaluateDeferred(IconDeferrerImpl.java:122)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$1(DeferredIconImpl.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1134)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$2(ProgressIndicatorUtils.java:140)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:138)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:84)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:105)
+	at com.intellij.ui.DeferredIconImpl.lambda$paintIcon$4(DeferredIconImpl.java:162)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:212)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(126) - IntelliJ IDEA 2018.1.5  Build #IU-181.5281.24
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(133) - JDK: 1.8.0_152-release
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(134) - VM: OpenJDK 64-Bit Server VM
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(135) - Vendor: JetBrains s.r.o
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(136) - OS: Windows 10
+2018-06-19 04:58:44 ERROR BoundedTaskExecutor.logErrorHeader(142) - Last Action: CheckinProject
+2018-06-19 04:58:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 04:59:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 05:00:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 05:01:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 05:02:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 05:03:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200
+2018-06-19 05:04:56 INFO  ApacheHttpClient.sendEvent(469) - responseCode = 200

@@ -69,6 +69,8 @@ public class Solution {
             public static void ggg(int a, int b){
 
                 System.out.println(a + b);
+                int j = 8;
+                int h = 7;
             }
 
 
