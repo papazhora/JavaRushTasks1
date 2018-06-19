@@ -40,6 +40,7 @@ public class Solution {
 
     public static class Woman {
         String name;
+        int age = 55;
     }
 
 
