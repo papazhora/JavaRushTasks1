@@ -13,6 +13,7 @@ public class Solution {
 
         System.out.print(olga.name + " is " + olga.age + "\n" + elena.name + " is " + elena.age);
     }
+
     public static class Student
     {
         int age;

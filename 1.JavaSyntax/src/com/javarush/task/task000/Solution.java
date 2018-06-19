@@ -1,8 +1,13 @@
 package com.javarush.task.task000;
 
+import com.javarush.task.task0000.Solution.Student;
+
 import static com.javarush.task.task000.Solution.Ggg.ggg;
 
 public class Solution {
+    Student lora = new Student();
+
+
     int age;
     String name;
     int o = 9;
@@ -10,6 +15,9 @@ public class Solution {
         int n = 5;
         int m = 10;
         String name = "Egor";
+        Student kolya = new Student();
+
+
 
         ggg(n + 3, m + 3);
 
@@ -30,7 +38,6 @@ public class Solution {
             b = c + a;
             live(c, s);
             ggg(1,1);
-
             System.out.println(c);
             s = "Pasha";
             System.out.println(b);
