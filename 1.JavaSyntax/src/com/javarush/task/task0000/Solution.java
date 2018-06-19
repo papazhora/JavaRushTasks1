@@ -10,6 +10,8 @@ public class Solution {
         Student elena = new Student();
             elena.name = "Elena";
             elena.age = 22;
+
+        System.out.print(olga.name + " is " + olga.age + "\n" + elena.name + " is " + elena.age);
     }
     public static class Student
     {
