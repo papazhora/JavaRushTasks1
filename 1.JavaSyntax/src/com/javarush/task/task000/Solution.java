@@ -16,6 +16,8 @@ public class Solution {
         int m = 10;
         String name = "Egor";
         Student kolya = new Student();
+        final Student kolya1 = kolya;
+        new Student();
 
 
 
