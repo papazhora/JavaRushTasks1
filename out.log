@@ -2203,3 +2203,35 @@ java.lang.AssertionError: Already disposed: Module: 'JavaProject'
 2018-06-19 18:44:53 INFO  ApacheHttpClient.refreshUserInfo(294) - Информация о пользователе получена.
 2018-06-19 18:44:53 INFO  ApacheHttpClient.startGA(31) - GAService запущен.
 2018-06-19 18:44:53 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-06-19 19:29:29 INFO  JavaRushTasksProjectComponent.projectClosing(165) - ---------- Project JavaRushTasks closed ----------
+
+2018-06-19 20:48:55 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+2018-06-19 20:48:55 INFO  JavaRushTasksProjectComponent.projectOpened(69) - ---------- Version 3.18 ----------
+
+2018-06-19 20:48:55 INFO  ApacheHttpClient.createAsyncHttpClient(129) - Выбрано 1 прокси. Тип : DIRECT
+2018-06-19 20:48:55 INFO  ApacheHttpClient.<init>(87) - ApacheHttpClient проинстанциирован успешно.
+2018-06-19 20:48:55 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-19 20:48:55 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-19 20:48:55 INFO  ApacheHttpClient.login(225) - Ожидание ответа сервера.
+2018-06-19 20:48:55 INFO  ApacheHttpClient.login(229) - responseCode = 200
+2018-06-19 20:48:55 INFO  ApacheHttpClient.login(260) - JSESSIONID=1306F5E9C3EA102D36395D2E7CB89A42
+2018-06-19 20:48:55 INFO  ApacheHttpClient.refreshUserInfo(288) - responseCode = 200
+2018-06-19 20:48:56 INFO  ApacheHttpClient.refreshUserInfo(294) - Информация о пользователе получена.
+2018-06-19 20:48:56 INFO  ApacheHttpClient.startGA(31) - GAService запущен.
+2018-06-19 20:48:56 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-06-19 21:54:01 INFO  JavaRushTasksProjectComponent.projectClosing(165) - ---------- Project JavaRushTasks closed ----------
+
+2018-06-20 06:40:09 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+2018-06-20 06:40:09 INFO  JavaRushTasksProjectComponent.projectOpened(69) - ---------- Version 3.18 ----------
+
+2018-06-20 06:40:09 INFO  ApacheHttpClient.createAsyncHttpClient(129) - Выбрано 1 прокси. Тип : DIRECT
+2018-06-20 06:40:09 INFO  ApacheHttpClient.<init>(87) - ApacheHttpClient проинстанциирован успешно.
+2018-06-20 06:40:10 INFO  ApacheHttpClient.testConnection(187) - responseCode = 200
+2018-06-20 06:40:10 INFO  ApacheHttpClient.testConnection(195) - result = true
+2018-06-20 06:40:10 INFO  ApacheHttpClient.login(225) - Ожидание ответа сервера.
+2018-06-20 06:40:10 INFO  ApacheHttpClient.login(229) - responseCode = 200
+2018-06-20 06:40:10 INFO  ApacheHttpClient.login(260) - JSESSIONID=15BB30596B0841AAAF7F3AFA7775E0F1
+2018-06-20 06:40:10 INFO  ApacheHttpClient.refreshUserInfo(288) - responseCode = 200
+2018-06-20 06:40:10 INFO  ApacheHttpClient.refreshUserInfo(294) - Информация о пользователе получена.
+2018-06-20 06:40:10 INFO  ApacheHttpClient.startGA(31) - GAService запущен.
+2018-06-20 06:40:10 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
