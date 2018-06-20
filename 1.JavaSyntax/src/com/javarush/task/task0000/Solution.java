@@ -16,7 +16,7 @@ public class Solution {
 
         Student(olga, elena);
 
-        //System.out.print(olga.name + " is " + olga.age + "\n" + elena.name + " is " + elena.age);
+        System.out.print(olga.name + " is " + olga.age + "\n" + elena.name + " is " + elena.age);
     }
 
     private static void Student(Student a, Student b){
@@ -24,7 +24,7 @@ public class Solution {
         a.age = 80;
         b.name = "Petya";
         b.age = 60;
-        System.out.println(a.name + " is " + a.age + "\n" + b.name + " is " + b.age);
+       // System.out.println(a.name + " is " + a.age + "\n" + b.name + " is " + b.age);
 
 
 
